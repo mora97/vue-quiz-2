@@ -27,22 +27,18 @@ export default {
     },
     mutations: {
         addPost(state, post) {
-            console.log(state.searchInputValue);
             state.posts.splice(1, 0, post)
         },
         deletePost(state, postIndex) {
-            console.log(postIndex);
             state.posts.splice(postIndex, 1)
         },
         setDeletePost(state, deletePost) {
-            console.log(deletePost);
             state.deletePost = deletePost
         },
         setPosts(state, posts) {
             state.posts = posts
         },
         setNewPost(state, newPost) {
-            console.log(newPost);
             state.newPost = newPost
         },
         setNewPostTitle(state, text) {
@@ -52,7 +48,6 @@ export default {
                     text: text
                 }
             }
-            console.log(state.newPost);
         }
     },
     getters: {
@@ -94,7 +89,6 @@ export default {
             let result = await axios.get(`${BASE_URL}?q=${queryText}`).then(response =>
                 handleResponse(response)
             ).catch(error => handleError(error))
-            console.log(result);
             commit("setPosts", result)
             if (result.length === 0) {
                 commit('setNewPostTitle', queryText)

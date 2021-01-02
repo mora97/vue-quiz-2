@@ -51,7 +51,7 @@ export default {
     direction: rtl
     background: $color-secondary
     padding: .5rem
-    border-radius: .35rem
+    border-radius: $border-sm
     min-width: 20rem
     max-width: 40rem
     flex:1

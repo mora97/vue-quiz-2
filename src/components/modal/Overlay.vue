@@ -1,9 +1,9 @@
 <template>
-  <transition>
+  <transition name="fade">
     <div
       id="modal-overlay"
       @click="setHintModalState(false)"
-      v-if="(getHintModalState || getDeleteModalState)"
+      v-if="getHintModalState || getDeleteModalState"
     ></div>
   </transition>
 </template>
@@ -31,6 +31,12 @@ export default {
   background: #EEDEE1
   opacity: 0.15
   z-index: 800
+
+.fade-enter-active, .fade-leave-active
+  transition: opacity 0.1s ease-out
+
+.fade-enter, .fade-leave-to 
+  opacity: 0
 
 
 </style>

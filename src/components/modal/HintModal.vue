@@ -50,10 +50,12 @@ export default {
 button 
   @include modal-button
   background: green 
+
 .slide-enter-active, .slide-leave-active
   transition: all .8s ease
 
 .slide-enter-from, .slide-leave-to
   transform: translateY(-30px)
   opacity: 0
+  
 </style>

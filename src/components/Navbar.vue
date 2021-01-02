@@ -61,7 +61,7 @@ export default {
   z-index: 500
   .container
     margin: .5rem .7rem
-    border-radius: 10px
+    border-radius: $border-md
     display: flex
     background-color: $color-primary
     padding: 0.5rem 1rem
@@ -69,7 +69,7 @@ export default {
 
   input
     width: 100%
-    border-radius: 3rem
+    border-radius: $border-lg
     outline: none
     border: none
     background-color: $color-secondary
@@ -85,7 +85,7 @@ export default {
   button
     position: relative
     background: $color-secondary
-    border-radius: 50%
+    border-radius: $border-full
     width: 2.4rem
     height: 2.3rem
     box-shadow: $shadow
@@ -94,14 +94,14 @@ export default {
     padding: .4rem
     border: none
     &:hover
-      background: #F0B6C1
+      background: #75F793
       scale: 1.1
     &:focus 
       outline: none
       
 
   svg
-    border-radius: 50%
+    border-radius: $border-full
     width: 38px
     height: 34px
 
