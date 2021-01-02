@@ -32,10 +32,10 @@ export default {
     }
   },
   methods: {
-    ...mapMutations(['setDeleteModalState', 'setDeletePost']),
+    ...mapMutations(['setDeleteModalState', 'setDeleteSelectedPost']),
     deletPost () {
       this.setDeleteModalState()
-      this.setDeletePost({ id: this.post.id, index: this.index })
+      this.setDeleteSelectedPost({ id: this.post.id, index: this.index })
     }
   }
 }

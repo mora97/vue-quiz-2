@@ -29,10 +29,10 @@ export default {
         addPost(state, post) {
             state.posts.splice(1, 0, post)
         },
-        deletePost(state, postIndex) {
+        deletePost(state, postIndex) {          //delete selected post
             state.posts.splice(postIndex, 1)
         },
-        setDeletePost(state, deletePost) {
+        setDeleteSelectedPost(state, deletePost) {  //store index and id of selected post for deleteing
             state.deletePost = deletePost
         },
         setPosts(state, posts) {
@@ -51,7 +51,7 @@ export default {
         }
     },
     getters: {
-        getDeletePost(state) {
+        getDeleteSelectedPost(state) {  //return selected post's id and index for deleteing
             return state.deletePost
         },
         getPosts: state => {
@@ -78,7 +78,7 @@ export default {
             commit,
             getters
         }) {
-            let deletedPost = getters.getDeletePost
+            let deletedPost = getters.getDeleteSelectedPost
             await axios.delete(`${BASE_URL}/${deletedPost.id}`).then(response => handleResponse(response)).catch(error => handleError(error))
             commit("deletePost", deletedPost.index)
             commit('setDeleteModalState')
