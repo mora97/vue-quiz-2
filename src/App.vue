@@ -1,17 +1,34 @@
 <template>
   <div class="app">
-    <h1>Hello Dear Friend! \ (•◡•) /</h1>
+    <header>
+      <navbar />
+    </header>
+    <main>
+      <post-list />
+    </main>
+    <hint-modal />
+    <delete-modal />
   </div>
 </template>
 
 <script>
+import HintModal from './components/modal/HintModal.vue'
+import Navbar from './components/Navbar'
+import PostList from './components/PostList'
+import { mapActions } from 'vuex'
+import DeleteModal from './components/modal/DeleteModal.vue'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: { Navbar, PostList, HintModal, DeleteModal },
+  methods: {
+    ...mapActions(['asyncGetPosts'])
+  },
+  created () {
+    this.asyncGetPosts()
+  }
 }
 </script>
 
-<style scoped>
-  .app {
-    text-align: center;
-  }
+<style lang="sass">
 </style>

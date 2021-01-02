@@ -1,76 +1,49 @@
 {
-  "data": {
-    "1": {
-      "title": {
-        "text": "Build"
-      },
+  "data": [
+    {
+      "id": 75,
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#ec5858"
+      "title": {
+        "text": "test1"
+      },
+      "color": "#dbe8be"
     },
-    "2": {
-      "title": {
-        "text": "your"
-      },
+    {
+      "id": 77,
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#9ad3bc"
+      "title": {
+        "text": "test3"
+      },
+      "color": "#6e13e4"
     },
-    "3": {
-      "title": {
-        "text": "weaknesses"
-      },
+    {
+      "id": 78,
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#16a596"
+      "title": {
+        "text": "test4"
+      },
+      "color": "#fd0012"
     },
-    "4": {
-      "title": {
-        "text": "until"
-      },
+    {
+      "id": 79,
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#b8de6f"
+      "title": {
+        "text": "test5"
+      },
+      "color": "#286335"
     },
-    "5": {
-      "title": {
-        "text": "they"
-      },
+    {
+      "id": 80,
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#2d6187"
-    },
-    "6": {
       "title": {
-        "text": "become"
+        "text": "test6"
       },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#28df99"
-    },
-    "7": {
-      "title": {
-        "text": "your"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#9d65c9"
-    },
-    "8": {
-      "title": {
-        "text": "strong"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#3e978b"
-    },
-    "9": {
-      "title": {
-        "text": "points"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#00334e"
+      "color": "#9605b5"
     }
-  }
+  ]
 }
