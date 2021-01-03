@@ -1,94 +1,76 @@
 {
-  "data": [
-    {
-      "id": 77,
+  "data": {
+    "1": {
+      "title": {
+        "text": "Build"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test3"
-      },
-      "color": "#6e13e4"
+      "color": "#ec5858"
     },
-    {
-      "id": 78,
+    "2": {
+      "title": {
+        "text": "your"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test4"
-      },
-      "color": "#fd0012"
+      "color": "#9ad3bc"
     },
-    {
-      "id": 79,
+    "3": {
+      "title": {
+        "text": "weaknesses"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test5"
-      },
-      "color": "#286335"
+      "color": "#16a596"
     },
-    {
-      "id": 80,
+    "4": {
+      "title": {
+        "text": "until"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test6"
-      },
-      "color": "#9605b5"
+      "color": "#b8de6f"
     },
-    {
-      "id": 81,
+    "5": {
+      "title": {
+        "text": "they"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test7"
-      },
-      "color": "#7a84d6"
+      "color": "#2d6187"
     },
-    {
-      "id": 82,
+    "6": {
+      "title": {
+        "text": "become"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test8"
-      },
-      "color": "#b7afe2"
+      "color": "#28df99"
     },
-    {
-      "id": 83,
+    "7": {
+      "title": {
+        "text": "your"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test9"
-      },
-      "color": "#eb2a39"
+      "color": "#9d65c9"
     },
-    {
-      "id": 84,
+    "8": {
+      "title": {
+        "text": "strong"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test10"
-      },
-      "color": "#d4685c"
+      "color": "#3e978b"
     },
-    {
-      "id": 85,
+    "9": {
+      "title": {
+        "text": "points"
+      },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test12"
-      },
-      "color": "#347fc1"
-    },
-    {
-      "id": 87,
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "title": {
-        "text": "test16"
-      },
-      "color": "#197c77"
+      "color": "#00334e"
     }
-  ]
+  }
 }

@@ -32,7 +32,7 @@ $breakpoint-tablet: 768px
   flex: 1 1 auto
     
 .list-enter-active, .list-leave-active
-  transition: all 1s ease
+  transition: all .5s ease
 
 .list-enter-from, .list-leave-to
   transform: translateY(-30px)

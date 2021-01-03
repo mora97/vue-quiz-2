@@ -33,6 +33,7 @@ export default {
         this.setHintModalState({ state: true, text: 'searchbar is empty :(' })
       } else {
         let postsArray = this.getPosts
+        console.log(postsArray);
         if (postsArray.length !== 0) {
           this.setHintModalState({
             state: true,
