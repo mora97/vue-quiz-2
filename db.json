@@ -1,76 +1,44 @@
 {
   "data": {
-    "1": {
-      "title": {
-        "text": "Build"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#ec5858"
-    },
-    "2": {
-      "title": {
-        "text": "your"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#9ad3bc"
-    },
     "3": {
       "title": {
-        "text": "weaknesses"
+        "text": "test2"
       },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#16a596"
+      "color": "#ca2b23"
     },
-    "4": {
+    "15": {
       "title": {
-        "text": "until"
+        "text": "tes6"
       },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#b8de6f"
+      "color": "#523963"
     },
-    "5": {
+    "16": {
       "title": {
-        "text": "they"
+        "text": "tes22"
       },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#2d6187"
+      "color": "#278b48"
     },
-    "6": {
+    "17": {
       "title": {
-        "text": "become"
+        "text": "tes221"
       },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#28df99"
+      "color": "#7bc3b1"
     },
-    "7": {
+    "18": {
       "title": {
-        "text": "your"
+        "text": "tes2213"
       },
       "description": "lorem ipsum dolor sit amet",
       "img": "https://source.unsplash.com/random",
-      "color": "#9d65c9"
-    },
-    "8": {
-      "title": {
-        "text": "strong"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#3e978b"
-    },
-    "9": {
-      "title": {
-        "text": "points"
-      },
-      "description": "lorem ipsum dolor sit amet",
-      "img": "https://source.unsplash.com/random",
-      "color": "#00334e"
+      "color": "#f8b510"
     }
   }
 }

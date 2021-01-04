@@ -52,7 +52,7 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import "../styles/variables.sass"
+@import "../../styles/variables.sass"
 
 #navbar
   position: fixed
@@ -74,7 +74,7 @@ export default {
     outline: none
     border: none
     background-color: $color-secondary
-    background-image: url('../../public/assets/icons/search.svg')
+    background-image: url('../../../public/assets/icons/search.svg')
     background-repeat: no-repeat
     background-position: 0.25rem 0.25rem
     margin-left: .4rem

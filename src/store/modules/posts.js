@@ -34,24 +34,14 @@ export default {
             state.backUpPosts.splice(0, 0, post)
         },
         deletePost(state, postIndex) { //delete selected post
-            state.posts.splice(postIndex, 1)
             state.backUpPosts.splice(postIndex, 1)
+            state.posts = state.backUpPosts
         },
         setDeleteSelectedPost(state, deletePost) { //store index and id of selected post for deleteing
             state.deletePost = deletePost
         },
         setPosts(state, posts) {
             state.posts = posts
-            if (state.posts.length % 2 !== 0) {
-                state.posts.push({
-                    id: '-1',
-                    title: {
-                        text: ''
-                    },
-                    img: '',
-                    description: ''
-                })
-            }
         },
         setBackUpPosts(state, posts) {
             state.backUpPosts = posts
@@ -146,7 +136,6 @@ export default {
             commit('addPost', newPost)
             let posts = await convertArrayToObject(getters.getBackUpPosts, "id")
             await axios.put(BASE_URL, posts).then(response => handleResponse(response)).catch(error => handleError(error))
-            console.log(posts);
             commit('setNewPost', {
                 ...newPost,
                 id: newPost.id + 1

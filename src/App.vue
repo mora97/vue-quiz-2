@@ -13,8 +13,8 @@
 
 <script>
 import HintModal from './components/modal/HintModal.vue'
-import Navbar from './components/Navbar'
-import PostList from './components/PostList'
+import Navbar from './components/header/Navbar'
+import PostList from './components/post/PostList'
 import { mapActions } from 'vuex'
 import DeleteModal from './components/modal/DeleteModal.vue'
 

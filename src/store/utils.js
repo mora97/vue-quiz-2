@@ -31,7 +31,6 @@ export const converObjectToArray = (obj) => {
 export const convertArrayToObject = (array, key) => {
     const initilaValue = {}
     return array.reduce((obj, item) => {
-        // console.log(obj);
         console.log([item[key]]);
         let newObj = {
             title: {
